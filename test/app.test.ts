@@ -10,7 +10,7 @@ describe("app", () => {
 
     expect(response.status).toBe(200);
     expect(response.body.ok).toBe(true);
-    expect(response.body.data.name).toBe("nodejs-monolithic-boilerplate");
+    expect(response.body.data.name).toBe("nodejs-typescript-monolithic-boilerplate");
   });
 
   it("GET /health returns healthy status", async () => {

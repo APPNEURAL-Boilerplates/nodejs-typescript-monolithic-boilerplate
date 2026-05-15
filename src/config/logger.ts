@@ -4,7 +4,7 @@ import { env } from "./env.js";
 export const logger = pino({
   level: env.LOG_LEVEL,
   base: {
-    service: "nodejs-monolithic-boilerplate",
+    service: "nodejs-typescript-monolithic-boilerplate",
     env: env.NODE_ENV
   },
   redact: {

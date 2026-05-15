@@ -10,7 +10,7 @@ router
   .route("/")
   .get((_req, res) => {
     return successResponse(res, {
-      name: "nodejs-monolithic-boilerplate",
+      name: "nodejs-typescript-monolithic-boilerplate",
       message: "Node.js modular monolith API is running",
       docs: {
         health: "/health",
