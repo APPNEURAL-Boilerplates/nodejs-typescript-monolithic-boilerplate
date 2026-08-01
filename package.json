@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-typescript-monolithic-boilerplate",
+  "name": "@appneural/nodejs-typescript-monolithic-boilerplate",
   "version": "1.0.0",
   "description": "Production-minded Node.js modular monolith API boilerplate with TypeScript and Express.",
   "private": true,
